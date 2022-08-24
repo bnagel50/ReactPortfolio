@@ -65,9 +65,14 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/brad-nagel-9bba32237/",
+            link: "https://www.linkedin.com/in/bradley-nagel-9bba32237",
             icon: "fa fa-linkedin",
             label: 'linkedin'
+        },
+        {
+            link: "https://docs.google.com/document/d/1seeqEiNMCq_fCe0QJmeJ1mIjAYsqGlS_5F9HIzQlyFg/edit?usp=sharing",
+            icon: "fa fa-safari",
+            label: 'resume'
         },
         // {
         //     link: "https://twitter.com",
@@ -78,7 +83,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello all! I'm Brad, a recent graduate of The Ohio State Full-Time Coding Bootcamp. I am proficient with all things JavaScript, and have experience with front-end and back-end work. In my free time, I am an avid gamer and always appreciate recommendations. Please reach out with any questions as I am currently looking for any work in the developer industry!",
+    bio: "Hello all! I'm Brad, a recent graduate of The Ohio State Full-Time Coding Bootcamp. I am proficient with all things JavaScript, and have experience with front-end and back-end work. I made the switch to this field due to my love of computers and problem-solving. I aim to always make things easier for others in any way possible. In my free time, I am an avid gamer and always appreciate recommendations. Please reach out with any questions as I am currently looking for any work in the developer industry!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css', 'figma', 'mongoDB', 'express.js', 'node.js'],
@@ -107,19 +112,19 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Concert Finder",
+            title: "Concert Finder - Search Tool using HTML, CSS, JS, and Ticketmaster's API",
             live: "https://dkempen98.github.io/concert-finder/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/dkempen98/concert-finder", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Bug Tracker App",
+            title: "Bug Tracker App - Support Ticket Forum using JS, Express, and Handlebars",
             live: "https://congenial-potatoes.herokuapp.com/login",
             source: "https://github.com/IvanGoya/congenial-potato",
             image: mock2
         },
         {
-            title: "Coding Bootcamp Reviewer",
+            title: "Coding Bootcamp Reviewer - Course Review Site using MongoDB, Express, React, and Node.js",
             // live: "to-do",
             source: "https://github.com/IvanGoya/Computer-Course-report",
             image: mock3
